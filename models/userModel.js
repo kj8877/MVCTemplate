@@ -11,7 +11,7 @@ var getModel = () => {
       lastName: {
          type: String,
          required: false
-      },
+      }
    });
 
    return productConnection.model('User', userModel);
